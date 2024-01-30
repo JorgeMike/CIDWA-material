@@ -1,0 +1,73 @@
+Examen diagnostico
+Practico
+
+El siguiente codigo puede o no contener errores, si identificas un error escribelo debajo del codigo
+
+Codigo 1:
+
+	<!DOCTYPE html5>
+	<html lang="en">
+	  <header>
+	    <meta charset="UTF-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	    <link rel="stylesheet" href="style.css">
+	    <title>Document</title>
+	  </header>
+	  <body></body>
+	</html>
+	
+Codigo 2:
+	
+	<a href="">esto es un link</a>
+	<hr></hr>
+	<input type="">esto es un input</input>
+	<div class=""></div>
+	<img href="" alt="">
+	<button>boton</button>
+	
+Codigo 3:
+	
+	ul li{
+	style_list: "none";
+	}
+	
+	a{
+	text-decoration: "none";
+	}
+	
+	@media(max-witdh: 500){
+	background-color: url("")
+	}
+	
+	.header {
+	    background-color: #FF0000;
+	    padding: 20px
+	    border-radius: 5px;
+	}
+	
+Codigo 4:
+	
+	const userAge: number = 25; //
+	
+	userAge: = 30
+	
+	console.log(userAges)
+
+	let name: strig = 25; //
+	
+	const function imprimir = (mensaje) => {
+		console.log(mensaje
+	}
+	
+Codigo 5:
+
+	git init repository
+	
+	git commit -m ""
+	
+	git add .gitignore
+	
+	git pull from master to dev
+	
+	git push origin main
+	

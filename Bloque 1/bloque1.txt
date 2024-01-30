@@ -1,0 +1,333 @@
+Bloque 1
+	Lo necesario de Desarrollo (VScode, Node)
+	Extenciones:
+		Auto Close Tag
+		Auto Rename Tag
+		Code Runne
+		ES7+ React/Redux/React-Native snippets
+		Live Server
+		Material Icon
+		Prettier
+
+	que es nodejs e instalacion
+	Es un entorno de ejecución de JavaScript del lado del servidor que permite a los 
+	desarrolladores escribir código en JavaScript para ejecutarse en el servidor.
+	Presentacion Visual de VScoded
+	
+	Intorduccion a HTML, CSS y JavaScript
+	
+	HTML = Hypertext Markup Language
+	Creador = Tim Berners-Lee
+	
+	Etiquetas
+	
+	Se utilizan para estructurar y dar formato al contenido de una página web. Las
+	etiquetas son códigos que se insertan en un documento HTML y rodean o envuelven 
+	diferentes partes del contenido.
+	
+	Encabezado
+	
+	<h1></h1>, <h2></h2>, ..., <h6></h6>
+	
+	Parrafo
+	
+	<p></p>
+	
+	Enlace
+	
+	<a href="url"></a>
+	
+	Imagen
+	
+	<img src="ruta_de_la_imagen" alt="descripción">
+	
+	Listas
+	
+	<ol></ol>, <ul></ul>
+
+	Elementos de lista
+	
+	<li></li>
+	
+	Divisiones
+	
+	<div></div>
+	
+	Formularios
+	
+	<form></form>
+	
+	Entradas
+	
+	<input type="text" />
+	<input type="password" />
+	<input type="checkbox" />
+	
+	Botones
+	
+	<button></button>
+	
+	Seleccion
+	
+	<select></select>
+	
+	Opcion
+	
+	<option></option>
+	
+	Tabla
+	
+	<table></table>
+	
+	Filas de tabla
+	
+	<td></td> o <th></th> o <tr></tr>
+	
+	Navegacion
+	
+	<nav></nav>
+	
+	Seccion
+	
+	<section></section>
+	
+	Articulo
+	
+	<article></article>
+	
+	Pie de Pagina
+	
+	<footer></footer>
+	
+	Encabezado
+	
+	<header></header>
+	
+	Estructura basica
+	
+<!DOCTYPE html>
+	<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Título de la Página</title>
+	</head>
+	<body>
+    <!-- Contenido de la página va aquí -->
+	</body>
+	</html>
+
+	-- CSS --
+	
+	CSS = Cascading Style Sheets
+	Creador =  Håkon Wium Lie y Bert Bos
+	
+	¿Cómo Funciona?
+	
+	CSS se aplica a elementos HTML mediante reglas de estilo.
+	Seleccionas elementos específicos del HTML y aplicas estilos a esos elementos.
+	
+	Sintaxis basica
+	
+	selector {
+  		propiedad: valor;
+	}
+
+	Ejemplo
+	
+	body {
+		color: #333; /* color del texto */
+		font-family: 'Arial', sans-serif; /* tipo de fuente */
+	}
+
+	Selección de Elementos:
+	
+	h1 {
+		color: blue;
+	}
+
+	Selector de Clase:
+	
+	.destacado {
+		font-weight: bold;
+	}
+	
+	Selector de id:
+	
+	#encabezado {
+		font-size: 24px;
+	}
+
+	Vinculación de CSS a HTML:
+
+	<link rel="stylesheet" href="estilos.css">
+	
+	<style>
+  		/* Reglas CSS aquí */
+	</style>
+
+
+	Herramientas de desarrollo
+	
+	DevTools (consola del navegador)
+	Inspector, Consola, Depurador, Red, Almacenamientos
+	
+	Inspector:
+	Permite examinar y modificar la estructura HTML y los estilos CSS de una página web 
+	en tiempo real.
+
+	Consola:
+	Proporciona una interfaz para ejecutar comandos JavaScript en la página.
+	
+	Red:
+	Monitoriza las solicitudes HTTP realizadas por la página, muestra tiempos de carga 
+	y permite analizar el tráfico de red.
+	
+	Almacenamiento:
+	Proporciona información sobre cookies, almacenamiento local y sesiones de 
+	almacenamiento.
+	
+	Conceptos Básicos de Programación
+	
+	Variables
+	const = valores constantes
+	let = variables cuyo valor puede ser reasignado
+	
+	Tipos de datos
+	
+	JaveScript
+	
+	Dinamismo de tipos:
+		let edad = 25 // Entero
+		let altura = 1.60 // Decimal
+	
+	Operaciones Dinamicas:
+		let resultado = edad * 2;  // Resultado es un número
+
+	Arrays Dinámicos:
+		let lista = [1, "dos", true];
+		
+	TypeScript
+	
+	Tipado Estático:
+	
+	let edad: number = 25;
+	let nombre: string = "Juan";
+	let esMayor: boolean = true;
+
+	Inferencia de Tipos:
+	
+	let otraEdad = 30;  // TypeScript infiere que otraEdad es de tipo number
+
+	Operaciones con Tipos
+	
+	let resultado: number = edad * 2;  // TypeScript verifica que el resultado sea de 
+	tipo number
+
+	Arrays Tipados:
+	
+	let numeros: number[] = [1, 2, 3];
+	let mixtos: (number | string)[] = [1, "dos", 3];
+
+	Objetos tipados:
+	
+	interface Persona {
+	    nombre: string;
+	    edad: number;
+	    esEstudiante?: boolean;  // Propiedad opcional
+	}
+
+	let estudiante: Persona = {
+	    nombre: "Ana",
+	    edad: 25,
+	    esEstudiante: true
+	};
+
+	Operadores
+	
+	Aritméticos: suma, resta, multiplicacion, division, modulo(resto)
+	Comparacion: igualdad, estricta, desigualdad, desigualdad estricta
+	Operadores Lógicos: AND, OR, NOT
+	Asignación: =, con operacion: +=, -=, *=, /=, oprador terniario: ? () : ()
+	
+	Estructuras de Control ifelse, switchcase, bucles, etc...
+	Funciones
+	
+	Tradicional: 
+	function sumar(a: number, b: number): number {
+  		return a + b;
+	}
+	
+	Expresion de funcion:
+	const sumar = function(a: number, b: number): number {
+		return a + b;
+	};
+
+	Funciones Flecha (Arrow Functions):
+	const sumar = (a: number, b: number): number => a + b;
+	
+	Parametros opcionales:
+	function saludar(nombre: string, edad?: number): void {
+  		console.log(`Hola, soy ${nombre}${edad ? ` y tengo ${edad} años` : ""}`);
+	}
+	
+	Retorno opcional
+	function duplicar(numero: number): number | undefined {
+		if (numero > 0) {
+		return numero * 2;
+	}
+	return undefined
+	}
+	
+	Parámetros Rest
+	function sumar(...numeros: number[]): number {
+		return numeros.reduce((total, numero) => total + numero, 0);
+	}
+
+	Estructuras de Datos
+	
+	Arreglos:
+	let numeros: number[] = [1, 2, 3, 4, 5];
+	
+	Listas Enlazadas:
+	class Nodo<T> {
+		dato: T;
+		siguiente: Nodo<T> | null;
+
+		constructor(dato: T) {
+			this.dato = dato;
+			this.siguiente = null;
+		}
+	}
+
+	let nodo1 = new Nodo(1);
+	let nodo2 = new Nodo(2);
+	nodo1.siguiente = nodo2;
+	
+	Pilas:
+	let pila: number[] = [];
+	pila.push(1);
+	pila.push(2);
+	let ultimoElemento = pila.pop(); // 2
+	
+	Colas:
+	let cola: number[] = [];
+	cola.push(1);
+	cola.push(2);
+	let primerElemento = cola.shift(); // 1
+	
+	Diccionarios:
+	let mapa = new Map<string, number>();
+	mapa.set('uno', 1);
+	mapa.set('dos', 2);
+	let valor = mapa.get('uno'); // 1
+
+	conjuntos:
+	let conjunto = new Set<number>();
+	conjunto.add(1);
+	conjunto.add(2);
+
+	Algoritmos
+	Orientación a Objetos (OOP)
+	Manejo de Errores trycatch
+	Gestión de Memoria

@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 200vh;
+  margin-top: 60px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Activa Flexbox */
+  justify-content: space-between; /* Separa los elementos */
+  background-color: #333; /* Color de fondo */
+
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+
+.navbar-right {
+  display: flex;
+}
+
+.navbar li {
+  padding: 14px 16px; /* Ajusta el relleno según sea necesario */
+}
+
+.navbar li a {
+  color: white; /* Color del texto */
+  text-decoration: none;
+}

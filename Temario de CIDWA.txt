@@ -1,0 +1,103 @@
+Temario de CIDWA
+
+Bloque 1
+	Entorno de Desarrollo (VScode)
+	Intorduccion a HTML y CSS
+	Herramientas de desarrollo
+	Conceptos Básicos de Programación
+
+Bloque 2
+	Introducción a TypeScript
+	Tipos de Datos y Variables
+	Funciones y Parámetros
+	Interfaces y Tipos Avanzados
+
+Bloque 3
+	Introducción a React (Nextjs)
+	Componentes y Props
+	Estado y Ciclo de Vida
+	Eventos y Manejo de Formularios
+	Listas y Keys
+	
+Bloque 4
+	Git y GitHub
+	Buenas Prácticas
+	Primer repositorio local y remoto
+	Clonacion de proyecto
+	Trabajo Colaborativo
+	Pull requests
+	
+
+------------------------------------------------------------------------
+
+Temario desglosado
+
+Bloque 1 
+	Entorno de Desarrollo (VScode)
+		- ¿Qué es VScode?
+		- Creacion de archivos
+		
+	Introducción a HTML, CSS y JavaScript
+		- Conceptos Básicos de HTML. Etiquetas, estructura de un 
+		documento HTML.
+		- Hojas de estilos con CSS. Selectores, propiedades, 
+		bootstrap.
+			-Flexbox
+			-Grid Layout
+			-Columnas y renglones de bootstrap
+		- Programación Básica en JavaScript.
+
+	Herramientas de Desarrollo (Navegador, Figma, Postman)
+		- Uso de Navegadores para Desarrollo. Consola, Red, Almacenamiento, 
+		  Inspeccion
+		- Figma. Maquetacion
+		- Postman. Probar endpoints
+		
+	Conceptos Básicos de Programación
+		- Variables y Tipos de Datos. Objetos, arrays, funciones
+		- Funciones y Modularidad. Declaración de funciones, parámetros y retorno
+	
+Bloque 2
+	Introducción a TypeScript
+		- ¿Qué es TypeScript? Comparación con JavaScript, Beneficios
+		
+	Tipos de Datos y Variables
+		- Tipos Básicos en TypeScript. number, string, boolean, any, void, null, 
+		  undefined
+		- Declaración de Variables con Tipos. let, const, var. Inferencia
+		
+	Funciones y Parámetros
+		- Declaracion de Funciones en TypeScript. Tipado de parámetros y retorno
+		- Funciones Arrow y su Uso en TypeScript. Sintaxis y contexto de "this"
+		
+	Interfaces y Tipos Avanzados
+		- Creación y Uso de Interfaces. Propiedades opcionales y de solo lectura
+		- Uniones y Tipos Intersección. Combina tipos de datos
+		- Tipos Genéricos en TypeScript. Reutilización de código con flexibilidad 
+		  de tipos
+
+Bloque 3
+	Introducción a React (Nextjs)
+		- Ventajas y casos de uso
+		- Creacion de primer proyecto
+		- Esructura de un proyecto 
+	
+	Componentes y Props
+		- ¿Qué es un Componente?
+		- ¿Qué son los Props?
+		
+	Estado y Ciclo de Vida
+		- Manejo del estado en componentes de clase
+		- Ciclo de vida de un componente
+		- Uso de hooks en componentes funcionales
+		
+	Eventos y Manejo de Formularios
+		- Manejo de eventos en React.
+		- Formularios controlados y no controlados.
+		- Validación de formularios.
+		
+	Listas y Keys
+		- Renderizado de listas en React.
+		- Uso de keys para optimizar el rendimiento.
+		- Operaciones básicas en listas (agregar, eliminar).
+

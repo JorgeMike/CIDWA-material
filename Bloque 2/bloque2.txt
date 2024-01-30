@@ -1,0 +1,53 @@
+Bloque 2
+	Introducción a TypeScript
+	Tipos de Datos y Variables
+	Funciones y Parámetros
+	Interfaces y Tipos Avanzados
+	
+Configuracion de TypeScript
+	npm install -g typescript
+	extension: code runner
+	"code-runner.runInTerminal": true,
+	"code-runner.saveFileBeforeRun": true
+	Compila: ts-node archivo
+	
+	Anadir y eliminar
+	
+	push(): Añade uno o más elementos al final del array.
+	pop(): Elimina el último elemento del array.
+	shift(): Elimina el primer elemento del array.
+	unshift(): Añade uno o más elementos al principio del array.
+	
+	Busqueda
+	
+	indexOf(): Devuelve el primer índice en el que se puede encontrar un 
+	elemento dado.
+	
+	find(): Devuelve el valor del primer elemento que cumple la función 
+	de prueba proporcionada.
+	
+	findIndex(): Similar a find(), pero devuelve el índice del primer 
+	elemento que cumpla la condición.
+	
+	includes(): Determina si el array incluye un cierto valor.
+	
+	Tranformacion
+	
+	map(): Crea un nuevo array con los resultados de la llamada a la 
+	función indicada aplicados a cada uno de sus elementos.
+	
+	filter(): Crea un nuevo array con todos los elementos que cumplan la 
+	condición implementada por la función dada.
+	
+	reduce(): Aplica una función a un acumulador y a cada valor del array 
+	(de izquierda a derecha) para reducirlo a un solo valor.
+	
+	Combinacion
+	
+	concat(): Combina dos o más arrays.
+	
+	slice(): Devuelve una copia de una parte del array dentro de un nuevo 
+	array.
+	
+	splice(): Cambia el contenido de un array eliminando, reemplazando o 
+	añadiendo elementos.

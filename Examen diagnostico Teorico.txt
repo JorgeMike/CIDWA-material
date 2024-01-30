@@ -1,0 +1,22 @@
+Examen diagnostico
+Teorico
+Nombre:
+Correo:
+
+¿Ya has hecho algo relacionado al desarrollo web?
+
+¿Qué es HTML?
+¿Qué es CSS?
+¿Qué es JavaScript?
+
+¿Has usado vsCode?
+
+¿Qué es Git?
+¿Qué es GitHub?
+¿Qué es Postman?
+¿Qué es una api?
+
+¿Qué es un framework?
+¿Qué es frameworks conoces?
+¿Has usado alguno?
+

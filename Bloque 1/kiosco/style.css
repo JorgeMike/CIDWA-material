@@ -1,0 +1,19 @@
+.spline-container {
+  position: relative;
+  width: 50%; /* o el ancho que prefieras */
+  height: 600px; /* o la altura que prefieras */
+  z-index: 2;
+}
+
+.background-circle {
+  position: absolute;
+  width: 400px; /* Ajusta el tamaño según necesites */
+  height: 400px; /* Asegúrate de que sea igual al ancho para un círculo perfecto */
+  background-color: #cecece; /* Elige el color que prefieras */
+  border-radius: 50%;
+  z-index: 1;
+  /* Ajusta la posición según necesites, puede que necesites jugar con estos valores */
+  top: 40%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}

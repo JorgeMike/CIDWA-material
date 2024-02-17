@@ -1,13 +1,3 @@
-let numero: number = 10;
-let texto: string = "Hola Mundo";
-let booleano: boolean = true;
-
-let arregloTextos: string[] = ["Hola Mundo", "Adios Mundo", "CIDWA"];
-
-let arregloNumeros: number[] = [1, 2, 3, 4, 5];
-
-let arregloAleatorio = ["Hola", 5, "Adios", 1, 2, 4, false];
-
 /* Anadir y eliminar */
 
 let numeros: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -26,16 +16,9 @@ console.log(numeros);
 
 /* Busqueda */
 
-let nombres: string[] = [
-  "Omar",
-  "",
-  "Raul",
-  "Araceli",
-  "Carlos",
-  "Jesus",
-];
+let nombres: string[] = ["Omar", "", "Raul", "Araceli", "Carlos", "Jesus"];
 
-let index = nombres.indexOf("Raul")
+let index = nombres.indexOf("Raul");
 console.log(index); //Retorna la posicion de lo buscado
 
 console.log(nombres.find((nombre) => nombre.length === 5)); //Retorna el primer elemento que coincida
@@ -45,3 +28,4 @@ console.log(nombres.findIndex((nombre) => nombre.length === 5)); //Retorna la po
 console.log(nombres.includes("Jorge")); //Si el arreglo incluye o no el valor buscado
 
 /* Transformacion */
+

@@ -1,5 +1,8 @@
 Bloque 1
 	Lo necesario de Desarrollo (VScode, Node)
+	Usamos:
+	NodeJs: 18.17.0
+
 	Extenciones:
 		Auto Close Tag
 		Auto Rename Tag
@@ -12,6 +15,7 @@ Bloque 1
 	que es nodejs e instalacion
 	Es un entorno de ejecución de JavaScript del lado del servidor que permite a los 
 	desarrolladores escribir código en JavaScript para ejecutarse en el servidor.
+
 	Presentacion Visual de VScoded
 	
 	Intorduccion a HTML, CSS y JavaScript
@@ -24,6 +28,8 @@ Bloque 1
 	Se utilizan para estructurar y dar formato al contenido de una página web. Las
 	etiquetas son códigos que se insertan en un documento HTML y rodean o envuelven 
 	diferentes partes del contenido.
+
+	Etiqueta = <algo></algo> = Elemento
 	
 	Encabezado
 	
@@ -195,7 +201,7 @@ Bloque 1
 	
 	Tipos de datos
 	
-	JaveScript
+	JavaScript
 	
 	Dinamismo de tipos:
 		let edad = 25 // Entero

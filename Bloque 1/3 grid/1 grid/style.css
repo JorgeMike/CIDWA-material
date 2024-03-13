@@ -70,7 +70,7 @@ h1 {
 }
 
 /* Media Query para pantallas pequeñas */
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   .grid-container {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr auto auto;
@@ -81,15 +81,15 @@ h1 {
       "footer";
   }
 }
-
+ */
 /* Bento */
 
 .grid-bento {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-areas:
-    "a a a b b b"
-    "c c d d e e";
+    "a a a a b b"
+    "c c d e e e";
   margin-bottom: 50px;
   gap: 10px;
 }

@@ -13,19 +13,16 @@ Bloque 2
 	Interfaces y Tipos Avanzados
 
 Bloque 3
-	Introducción a React (Nextjs)
-	Componentes y Props
-	Estado y Ciclo de Vida
-	Eventos y Manejo de Formularios
-	Listas y Keys
-	
-Bloque 4
 	Git y GitHub
 	Buenas Prácticas
 	Primer repositorio local y remoto
 	Clonacion de proyecto
 	Trabajo Colaborativo
 	Pull requests
+
+Bloque 4
+	Introducción a React (Nextjs)
+	
 	
 
 ------------------------------------------------------------------------

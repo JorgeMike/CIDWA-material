@@ -5,7 +5,10 @@
 }
 
 body {
-  background-color: #dbd7d2;
+  background: url("https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -219,16 +222,16 @@ h2 {
 }
 
 @media (max-width: 576px) {
-  .container-cards-practica{
+  .container-cards-practica {
     flex-wrap: nowrap;
     flex-direction: column;
-    
+
     align-items: center;
 
     width: auto;
     height: auto;
   }
-  
+
   .card-lg {
     flex-direction: column;
     width: 300px;
@@ -238,8 +241,7 @@ h2 {
     margin: 20px 0;
   }
 
-  .card-sm-body{
+  .card-sm-body {
     margin: 10px 0;
   }
-
 }

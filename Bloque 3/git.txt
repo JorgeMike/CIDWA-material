@@ -1,0 +1,33 @@
+Configuracion inicial
+
+    git config --global user.name "Tu Nombre"
+
+    git config --global user.email "tuemail@example.com"
+
+Iniciar un repositorio local
+
+    git init
+
+Trabajo en cambios
+
+    git status
+
+    git add <archivo> o git add .
+
+    git commit -m "Mensaje"
+
+Ramas
+
+    git branch //enlistar ramas locales
+
+    git branch <rama> //crear rama
+
+    git checkout <rama> //moverse de rama
+
+    git merge <rama> //fusionar cambios en la rama actual
+
+Repositorios remotos
+
+    git remote add origin <url>
+
+    git push -u origin

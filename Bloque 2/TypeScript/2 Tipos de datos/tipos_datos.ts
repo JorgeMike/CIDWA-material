@@ -1,9 +1,13 @@
 console.clear();
 
+let edad:number
+
 const constante =
   "const: Es una variable que se debe inicializar y no puede cambiar su contenido";
 
 console.log(constante);
+
+console.log(edad)
 
 let variableLet: string =
   "let: Es una variable que puede ser reasignada, y que usa la inferencia de tipo solo cuando se inicializa";
@@ -20,11 +24,12 @@ interface Usuario {
   genero?: string;
 }
 
+type respuestas = "si" | "no"
+
 let jorge: Usuario;
 
 jorge = {
-  nombre: "Jorge Miguel Alvarado Reyes",
-  edad: 22,
+  trabjo: ""
 };
 
 let usuarios: Usuario[];

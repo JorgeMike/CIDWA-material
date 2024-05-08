@@ -16,7 +16,7 @@ export class Carro extends Vehiculo {
     this.airbags = airbags;
   }
 
-  mostrarDetalles(): void {
+  mostrarCarro(): void {
     super.mostrarDetalles();
     console.log(`No.Puertas: ${this.numeroPuertas}`);
     console.log(`Airbags: ${this.airbags}`);
